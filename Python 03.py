@@ -1,0 +1,17 @@
+nombre = input("Cual es tu nombre?")
+print(nombre)
+edad = input("Cuál es tu edad?")
+print(edad)
+ciudad = input("De dónde eres?")
+print(ciudad)
+estado = input("Estas casado?")
+print(estado)
+no1 = input('Introduce un valor entre e 1 y el 100')
+no1_int = int(no1)
+print(no1)
+
+no2 = input('Introduce un valor entre e 100 y el 200')
+print(no2)
+no2_int = int(no2)
+
+print(f"Mi nombre es:{nombre} tengo {edad}, vengo de {ciudad}  y mi resultado es {(no1_int/no2_int)}")
